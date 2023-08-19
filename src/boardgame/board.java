@@ -1,5 +1,7 @@
 package boardgame;
 
+import chess.pieces.Rook;
+
 public class board {
      private int rows;
      private int columns;
@@ -54,5 +56,7 @@ public class board {
     	}
     	return piece(position)!= null;
     }
+
+
   
 }
